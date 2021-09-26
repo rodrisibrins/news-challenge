@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "ARS Maquette";
+    src: url("http://db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot");
+    src: url("http://db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.eot?#iefix")
+        format("embedded-opentype"),
+        url("http://db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff2")
+        format("woff2"),
+        url("http://db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.woff")
+        format("woff"),
+        url("http://db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.ttf")
+        format("truetype"),
+        url("http://db.onlinewebfonts.com/t/466deba3855c345af3e1371e28d783ae.svg#ARS Maquette Web One")
+        format("svg");
+}

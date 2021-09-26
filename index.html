@@ -8,6 +8,7 @@
         <meta name="author" content="Joey Roulette">
         <meta name="copyright" content="TheVerge">
         <script src="https://kit.fontawesome.com/c4ec97c00c.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/fonts.css">
         <link rel="stylesheet" href="css/styles.css">
         <title>SpaceX’s first private crew shows what they’ve been up to in orbit - The Verge</title>
@@ -19,10 +20,33 @@
         <meta property="og:type" content="Science News">
         <meta property="og:image"
             content="https://cdn.vox-cdn.com/thumbor/S3tArG31GIu4f575u1TGfRDegv8=/
-            0x45:730x456/280x158/filters:format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69874557/E_dZJNZWEAAKc2H.0.png">
+                0x45:730x456/280x158/filters:format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/69874557/E_dZJNZWEAAKc2H.0.png">
         <meta property="og:url" content="www.theverge.com">
     </head>
     <body>
+        <header>
+            <div class="header-container">
+                <div class="logo-container">
+                    <img src="assets/img/ign-logo.jpg" alt="ign logo">
+                    <span>IGN</span>
+                </div>
+                <nav>
+                    <ul>
+                        <a href="https://store.ign.com/">Store</a>
+                        <a href="https://www.ign.com/news">News</a>
+                        <a href="https://www.ign.com/videos">Videos</a>
+                        <a href="https://www.ign.com/reviews">Reviews</a>
+                        <a href="https://www.ignboards.com/">Boards</a>
+                        <a href="https://www.ign.com/wikis">Wikis</a>
+                        <a href="">More</a>
+                        <i class="fas fa-search"></i>
+                        <a href="">
+                            <button>Sign In</button>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <section id="news-header">
             <h1>
                 SpaceX’s first private crew shows what they’ve been up to in orbit
@@ -31,21 +55,27 @@
                 Art, ukulele-jamming, somersaults and wide views of Earth
             </h2>
             <div class="news-info" itemscope itemtype="https://schema.org/NewsArticle">
-                <span>By </span><a href="https://www.theverge.com/users/JoeyRoulette"><label itemprop="author">Joey
-                        Roulette</label></a>
+                <span>By </span>
+                <a href="https://www.theverge.com/users/JoeyRoulette">
+                    <label itemprop="author">Joey Roulette</label>
+                </a>
                 <span>|</span>
                 <span> Sep 17, 2021, 6:34pm EDT</span>
             </div>
             <div class="social-medias">
-                <a href="https://www.facebook.com/sharer/sharer.php?text=SpaceX%E2%80%99s+first+private+crew+shows+what
-                    +they%E2%80%99ve+been+up+to+in+orbit&u=https%3A%2F%2Fwww.theverge.com%2F2021%2F9%2F17%2F22680152%2Fspacex
-                    -inspiration4-first-private-crew-update-in-orbit">
+                <a href="https://www.facebook.com/sharer/sharer.php?text=SpaceX%E2%80%99s+
+                        first+private+crew+shows+what+they%E2%80%99ve+been+up+to+in+
+                        orbit&u=https%3A%2F%2Fwww.theverge.com%2F2021%2F9%2F17%2F22680152%2Fspacex
+                        -inspiration4-first-private-crew-update-in-orbit"
+                >
                     <i class="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://twitter.com/intent/tweet?counturl=https%3A%2F%2Fwww.theverge.com%2F2021%2F9%2F17%2F22680152%2Fspacex
-                    -inspiration4-first-private-crew-update-in-orbit&text=SpaceX%E2%80%99s+first+private+crew+shows+what+they%E2%80%99ve
-                    +been+up+to+in+orbit&url=https%3A%2F%2Fwww.theverge.com%2F2021%2F9%2F17%2F22680152%2Fspacex-inspiration4-first-private
-                    -crew-update-in-orbit&via=Verge">
+                <a href="https://twitter.com/intent/tweet?counturl=https%3A%2F%2Fwww.theverge.com
+                        %2F2021%2F9%2F17%2F22680152%2Fspacex-inspiration4-first-private-crew-update-
+                        in-orbit&text=SpaceX%E2%80%99s+first+private+crew+shows+what+they%E2%80%99ve
+                        +been+up+to+in+orbit&url=https%3A%2F%2Fwww.theverge.com%2F2021%2F9%2F17%
+                        2F22680152%2Fspacex-inspiration4-first-private-crew-update-in-orbit&via=Verge"
+                >
                     <i class="fab fa-twitter"></i>
                 </a>
                 <a>
@@ -56,8 +86,7 @@
         </section>
         <section id="news-media">
             <div class="news-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/E71ffwc13y4"
-                    title="YouTube video player" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/E71ffwc13y4" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
@@ -78,10 +107,12 @@
                     the weightlessness of space on camera. “She’s been spinning ever since we got on orbit.”
                 </p>
                 <div class="image-container">
-                    <img src="src/img/gif01.gif" alt="Hayley Arceneaux spinning inside Crew Dragon" />
+                    <img src="assets/img/gif01.gif" alt="Hayley Arceneaux spinning inside Crew Dragon" />
                 </div>
-                <span>Hayley Arceneaux spinning inside Crew Dragon.</span>
-                <span>| SpaceX</span>
+                <div class="image-legend">
+                    <span>Hayley Arceneaux spinning inside Crew Dragon.</span>
+                    <span>| SpaceX</span>
+                </div>
                 <p>Christopher Sembroski, another crew mate, whipped out a ukulele and threatened to play it live on camera
                     to over 55,000 viewers on SpaceX’s live YouTube stream — “You can turn your volume down if you wish, but
                     I’ll give it a shot.” He did a little riff while Arceneaux was holding the mic, and it wasn’t half bad.
@@ -93,14 +124,17 @@
                     enjoyed learning how to use markers in space,” she said.
                 </p>
                 <div class="image-container">
-                    <img src="src/img/gif02.gif" alt="Proctor shows off some artwork" />
+                    <img src="assets/img/gif02.gif" alt="Proctor shows off some artwork" />
                 </div>
-                <span>Proctor shows off some artwork.</span>
-                <span>| SpaceX</span>
+                <div class="image-legend">
+                    <span>Proctor shows off some artwork.</span>
+                    <span>| SpaceX</span>
+                </div>
                 <p>
                     The four-person Inspiration4 crew, which includes billionaire entrepreneur and the mission’s funder
                     Jared Isaacman, has been zipping around the planet 15 times a day since Wednesday night, when they
-                    <a href="https://www.theverge.com/2021/9/15/22675793/spacex-inspiration4-launch-first-all-civilian-private-crew">
+                    <a
+                        href="https://www.theverge.com/2021/9/15/22675793/spacex-inspiration4-launch-first-all-civilian-private-crew">
                         blasted to space on top of SpaceX’s Falcon 9 rocket from Florida
                     </a>. Friday afternoon, they gave their first update on what they’ve been up to in a live YouTube video
                     nearly two days after lifting off the lack of public communication itself an indicator that space is no
@@ -164,5 +198,13 @@
                 </p>
             </div>
         </section>
+        <footer>
+            <section id="link">
+                <a href="matrix-resurrections-week02.html">
+                    Go to New News
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </section>
+        </footer>
     </body>
 </html>
